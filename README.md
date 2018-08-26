@@ -2,7 +2,6 @@
 A simple motor PID setup using Arduino and Matlab
 
 ![alt text](https://github.com/jpodavalos/Motor-PID-Controller-using-Arduino-Matlab/raw/master/images/sample_gui1.png)
-![alt text](https://github.com/jpodavalos/Motor-PID-Controller-using-Arduino-Matlab/raw/master/images/sample_gui2.png)
 
 Hardware Requirements:
 * Arduino Uno
