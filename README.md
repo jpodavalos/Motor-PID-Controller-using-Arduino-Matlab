@@ -3,7 +3,7 @@ A simple motor PID setup using Arduino and Matlab
 
 Hardware Requirements:
 * Arduino Uno
-* Motor Dual H-Bridge L298 Driver
+* Motor Dual H-Bridge L298 Driver https://circuit.rocks/motor-dualh-bridge-l298-driver
 * Metal DC Geared Motor w/ Encoder https://www.dfrobot.com/wiki/index.php/12V_DC_Motor_251rpm_w/Encoder_(SKU:_FIT0186)
 
 Software Requirements:
@@ -12,7 +12,8 @@ Software Requirements:
 
 
 How to use:
-* Edit COMPORT of Matlab code (PIDController.m) and Run
+* Edit COMPORT of Matlab code (PIDController.m) and run the GUI
+
 handles.s = serial('COM5');
 
 * Input P, I, D, and target speed (in RPM) values
