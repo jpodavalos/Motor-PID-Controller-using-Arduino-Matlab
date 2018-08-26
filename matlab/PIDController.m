@@ -96,6 +96,8 @@ peak = 0;
 lowest = 0;
 past_y = 0;
 
+avg_speed_counter = 0;
+
 tic % Start timer
 while toc <= 100000
     
@@ -126,9 +128,10 @@ while toc <= 100000
         while correction_counter < 5
             
             t = t + 1;
+            avg_speed_counter = avg_speed_counter + 1;
             y(t) = smooth(fscanf(handles.s, '%f'), 10, 'moving');
             set(handles.current_speed, 'String', y(t));
-            avg_speed_array(t) = y(t);
+            avg_speed_array(avg_speed_counter) = y(t);
             
             x(t) = toc;
             
@@ -192,6 +195,7 @@ while toc <= 100000
         timer_array = [];
         data_counter = 1;
         correction_counter = 0;
+        avg_speed_counter = 0;
              
         end_timer = x(t);
         set(handles.settling_time, 'String', end_timer - start_timer);
