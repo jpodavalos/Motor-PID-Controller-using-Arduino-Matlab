@@ -1,0 +1,24 @@
+ARDUINO				MOTOR ENCODER				MOTOR DRIVER
+------------------------------------------------------------
+PIN 2				YELLOW WIRE
+PIN 3				WHITE WIRE
+
+-------------------------------------------------------------
+
+PIN 4												IN1
+PIN 5												IN2
+PIN 6												ENA
+
+VCC					BLUE WIRE			
+GND					GREEN WIRE
+
+---------------------------------------------------------------
+
+
+VIN												   VCC
+GND												   GND
+
+-------------------------------------------------------------
+
+					RED WIRE                       OUT A
+					BLACK WIRE					   OUT B
