@@ -20,8 +20,13 @@ handles.s = serial('COM5');
 
 * Click Send 
 
-> After clicking Send, the motor should start moving and System Response details shoudld start to populate and update.
+* Update P, I, D to get the best response.
 
-> To test if PID works, try stopping the Motor, it should fight back. Response depends on P, I, and D values.
 
-To understand the PID algorith included in Arduino code, I recommend watching this video: https://www.youtube.com/watch?v=sDd4VOpOnnA
+> After clicking Send, the motor should start moving and System Response details should start to populate and update.
+
+> To test if PID works, try stopping the Motor (be careful - use piece of cloth), it should fight back. Response depends on P, I, and D values.
+
+
+To understand the PID algorith included in the Arduino code, I recommend watching this video: https://www.youtube.com/watch?v=sDd4VOpOnnA
+
