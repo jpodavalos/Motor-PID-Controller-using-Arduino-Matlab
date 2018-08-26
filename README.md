@@ -23,4 +23,4 @@ handles.s = serial('COM5');
 
 > To test if PID works, try stopping the Motor, it should fight back. Response depends on P, I, and D values.
 
-To understand the PID algorith more included in Arduino code, I recommend watching this video: https://www.youtube.com/watch?v=sDd4VOpOnnA
+To understand the PID algorith included in Arduino code, I recommend watching this video: https://www.youtube.com/watch?v=sDd4VOpOnnA
