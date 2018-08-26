@@ -15,8 +15,9 @@ A simple motor PID setup using Arduino and Matlab
 
 ## How to use:
 * Edit COMPORT of Matlab code (PIDController.m) and run the GUI
-
+```
 handles.s = serial('COM5');
+```
 
 * Input P, I, D, and target speed (in RPM) values
 
